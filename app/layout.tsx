@@ -1,23 +1,27 @@
-import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
-import { cn } from "./lib/utils";
-import "./styles/globals.css";
+import type { Metadata } from 'next'
+import { Outfit as FontSans } from 'next/font/google'
+import { cn } from './lib/utils'
+import './styles/globals.css'
 
-const outfit = Outfit({ subsets: ["latin"] });
+const fontSans = FontSans({
+  subsets: ['latin'],
+  variable: '--font-sans',
+})
 
 export const metadata: Metadata = {
-  title: "no way no how",
-  description: "Listen to they music of no way no how on Spotify, Apple Music, and more.",
-};
+  title: 'no way no how',
+  description:
+    'Listen to the music of no way no how on Spotify, Apple Music, and more.',
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={cn(outfit.className, 'bg-blue-300')}>{children}</body>
+    <html lang='en'>
+      <body className={cn(fontSans.variable, 'bg-blue-300')}>{children}</body>
     </html>
-  );
+  )
 }
