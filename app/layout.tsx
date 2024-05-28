@@ -21,7 +21,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={cn(fontSans.variable, 'bg-blue-300')}>{children}</body>
+      <body
+        className={cn(
+          fontSans.variable,
+          'min-h-screen bg-blue-300 font-sans antialiased'
+        )}
+      >
+        {children}
+      </body>
     </html>
   )
 }
