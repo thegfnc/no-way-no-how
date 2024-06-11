@@ -24,6 +24,13 @@ export default function Home() {
           className='underline underline-offset-2 hover:no-underline'
         >
           jason@thegoodfornothings.club
+        </a>{' '}
+        &bull;{' '}
+        <a
+          href='https://soundcloud.com/no-way-no-how'
+          className='underline underline-offset-2 hover:no-underline'
+        >
+          Soundcloud
         </a>
       </div>
     </main>
