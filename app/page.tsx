@@ -17,6 +17,15 @@ export default function Home() {
           loading='lazy'
         />
       </div>
+      <div>
+        <strong>Contact:</strong>{' '}
+        <a
+          href='mailto:jason@thegoodfornothings.club'
+          className='underline underline-offset-2 hover:no-underline'
+        >
+          jason@thegoodfornothings.club
+        </a>
+      </div>
     </main>
   )
 }
