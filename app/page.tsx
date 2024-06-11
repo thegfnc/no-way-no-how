@@ -20,10 +20,10 @@ export default function Home() {
       <div>
         <strong>Contact:</strong>{' '}
         <a
-          href='mailto:jason@thegoodfornothings.club'
+          href='mailto:hello@thegoodfornothings.club'
           className='underline underline-offset-2 hover:no-underline'
         >
-          jason@thegoodfornothings.club
+          hello@thegoodfornothings.club
         </a>{' '}
         &bull;{' '}
         <a
