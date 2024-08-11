@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react'
 import { Outfit as FontSans } from 'next/font/google'
 import { cn } from './lib/utils'
 import './styles/globals.css'
@@ -28,6 +29,7 @@ export default function RootLayout({
         )}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   )
