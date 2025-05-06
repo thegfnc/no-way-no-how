@@ -55,7 +55,15 @@ export default function Home() {
           </a>
         </div>
         <div>
-          <strong>Contact:</strong>{' '}
+          <a
+            href='https://www.instagram.com/nowaynohowband/'
+            className='underline underline-offset-2 hover:no-underline'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Instagram
+          </a>{' '}
+          &bull;{' '}
           <a
             href='mailto:hello@thegoodfornothings.club'
             className='underline underline-offset-2 hover:no-underline'
