@@ -4,11 +4,9 @@ import JasonGuitar from './jason-guitar.jpg'
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-center gap-10 px-4 py-8 text-center md:gap-16 md:px-8'>
-      <div className='flex flex-col items-center gap-2 md:gap-6'>
-        <h1 className='text-4xl font-semibold md:text-8xl'>no way no how</h1>
-        <div>
-          <div>music by Jason Desiderio & friends in Austin, TX</div>
-        </div>
+      <div className='flex flex-col items-center gap-2'>
+        <h1 className='text-4xl font-semibold md:text-6xl'>no way no how</h1>
+        <div>music by Jason Desiderio & friends in Austin, TX</div>
       </div>
       <div className='grid w-full max-w-[900px] gap-6 md:grid-cols-2'>
         <iframe
